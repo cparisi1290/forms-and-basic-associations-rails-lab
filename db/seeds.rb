@@ -159,4 +159,34 @@ genres = Hash[[
   "Synthpop"
 ].map { |genre| [genre, Genre.find_or_create_by(name: genre)] }]
 
+artists = Hash[[
+"The Beatles",
+"Michael Jackson",
+"Stevie Wonder",
+"The Rolling Stones",
+"James Brown",
+"Led Zeppelin",
+"Bob Dylan",
+"Jimi Hendrix",
+"Prince",
+"Bob Marley",
+"Elvis",
+"David Bowie",
+"Marvin Gaye",
+"Madonna",
+"Pink Floyd",
+"Queen",
+"Tupac"
+].map { |artist| [artist, Artist.find_or_create_by(name: artist)] }]
+
+songs = Hash[[
+"Hey Jude",
+"Let's Get It On",
+"Another One Bites The Dust",
+"Billie Jean",
+"Another Brick In The Wall",
+"Superstition",
+"Hound Dog"
+].map { |song| [song, Song.find_or_create_by(title: song)] }]
+
 
